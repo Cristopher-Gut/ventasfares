@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+body header {
+background-color:#2Ca6E9;
+text-align:center;
+color:#fd8d00;
+text-shadow:3px	2px #060606;
+font-family:"Lucida Console", Monaco, monospace;
+font-size:xx-large;
+	}
+	.descripcion
+	{
+		whidth:900px;
+		background-color:#effdfc;
+		text-align:justify;
+		font-size:30px;
+		border-top-right-radius:58px;
+		border-top-left-radius:58px;
+		padding-top:1em;
+		padding-right:1em;
+		padding-bottom:1em;
+		padding-left:1em;
+		display:inline;
+		border-style:solid;
+		border-color:#F3060A;
+		-webkit-box-shadow: 12px 12px 0px 3px #D5D4D4;
+		box-shadow:12px 12px 0px 3px #D5D4D4;
+		position:absolute;
+		left:50%;
+		transform:translate(-50%,0%);
+		-webkit-transform:translate(-50%,0%)
+		
+		}/* CSS Document */
+		
+		.menu
+{
+color:#C9C;
+margin-bottom:5px;
+padding-bottom:3px;
+padding-top:3px;
+padding-right:3px;
+padding-left:3px;
+background-color:#CC3;
+text-align:center;
+position:relative;
+	
+
+}
+.menu ul
+{
+	background-color:#3CC;
+	margin:0;
+	padding:0;
+	border: 1px solid #0CC;
+	overflow:hidden;
+	list-style-type:none;
+	
+}
+.menu ul li
+{
+	float:left;
+	width:100px;
+}
+.menu ul li:hover
+{
+	background-color:#C39;
+}
+ul li a
+{
+	border-left: 1px solid #CC9;
+	border-right: 1px solid #996;
+	text-shadow: 0px 0px #966;
+	padding:.3em;
+	display:block;
+	text-decoration:none;
+}
+ul li a:hover
+{
+	color:#3F9;
+}
+
